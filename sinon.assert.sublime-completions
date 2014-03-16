@@ -1,0 +1,62 @@
+{
+  "scope": "source.js",
+  "version": "0.10",
+  "completions": [{
+    "trigger": "sinon.assert.notCalled",
+    "contents": "sinon.assert.notCalled(${1:spy});"
+  }, {
+    "trigger": "sinon.assert.called",
+    "contents": "sinon.assert.called(${1:spy});"
+  }, {
+    "trigger": "sinon.assert.calledOnce",
+    "contents": "sinon.assert.calledOnce(${1:spy});"
+  }, {
+    "trigger": "sinon.assert.calledTwice",
+    "contents": "sinon.assert.calledTwice(${1:spy});"
+  }, {
+    "trigger": "sinon.assert.calledThrice",
+    "contents": "sinon.assert.calledThrice(${1:spy});"
+  }, {
+    "trigger": "sinon.assert.callCount",
+    "contents": "sinon.assert.callCount(${1:spy}, ${2:4});"
+  }, {
+    "trigger": "sinon.assert.callOrder",
+    "contents": "sinon.assert.callOrder(${1:spy1, spy2, ...});"
+  }, {
+    "trigger": "sinon.assert.calledOn",
+    "contents": "sinon.assert.calledOn(${1:spy}, ${2:obj});"
+  }, {
+    "trigger": "sinon.assert.alwaysCalledOn",
+    "contents": "sinon.assert.alwaysCalledOn(${1:spy}, ${2:obj});"
+  }, {
+    "trigger": "sinon.assert.calledWith",
+    "contents": "sinon.assert.calledWith(${1:spy}, ${2:arg1, arg2, ...});"
+  }, {
+    "trigger": "sinon.assert.alwaysCalledWith",
+    "contents": "sinon.assert.alwaysCalledWith(${1:spy}, ${2:arg1, arg2, ...});"
+  }, {
+    "trigger": "sinon.assert.neverCalledWith",
+    "contents": "sinon.assert.neverCalledWith(${1:spy}, ${2:arg1, arg2, ...});"
+  }, {
+    "trigger": "sinon.assert.calledWithExactly",
+    "contents": "sinon.assert.calledWithExactly(${1:spy}, ${2:arg1, arg2, ...});"
+  }, {
+    "trigger": "sinon.assert.alwaysCalledWithExactly",
+    "contents": "sinon.assert.alwaysCalledWithExactly(${1:spy}, ${2:arg1, arg2, ...});"
+  }, {
+    "trigger": "sinon.assert.calledWithMatch",
+    "contents": "sinon.assert.calledWithMatch(${1:spy}, ${2:arg1, arg2, ...});"
+  }, {
+    "trigger": "sinon.assert.alwaysCalledWithMatch",
+    "contents": "sinon.assert.alwaysCalledWithMatch(${1:spy}, ${2:arg1, arg2, ...});"
+  }, {
+    "trigger": "sinon.assert.neverCalledWithMatch",
+    "contents": "sinon.assert.neverCalledWithMatch(${1:spy}, ${2:arg1, arg2, ...});"
+  }, {
+    "trigger": "sinon.assert.threw",
+    "contents": "sinon.assert.threw(${1:spy}, ${2:exception});"
+  }, {
+    "trigger": "sinon.assert.alwaysThrew",
+    "contents": "sinon.assert.alwaysThrew(${1:spy}, ${2:exception});"
+  }]
+}
