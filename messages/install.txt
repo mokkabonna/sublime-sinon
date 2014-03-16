@@ -1,0 +1,21 @@
+These snippets will only work when the Syntax is set to the "JavaScript (Test)" syntax. This syntax is included.
+
+This is to avoid too much completions showing up in regular javascript files.
+
+Either you can manually change the syntax for the file to this syntax to enable the completions, 
+or even better use the sublime package [ApplySyntax](https://sublime.wbond.net/packages/ApplySyntax)
+
+Then in your user setting for that package configure it like this (in this example all files end with `Spec.js`)
+
+```json
+{
+    "syntaxes": [
+        {
+            "name": "Sinon/JavaScript (Test)",
+            "rules": [
+                {"file_name": ".+Spec.js$"}
+            ]
+        }
+    ]
+}
+```
