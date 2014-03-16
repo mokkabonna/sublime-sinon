@@ -1,5 +1,5 @@
 {
-  "scope": "source.js.bdd",
+  "scope": "source.js.test",
   "version": "0.10",
   "completions": [{
     "trigger": "sinon.assert.notCalled",
