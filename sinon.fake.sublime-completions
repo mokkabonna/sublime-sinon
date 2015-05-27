@@ -1,0 +1,14 @@
+{
+  "scope": "source.js.test",
+  "version": "0.10",
+  "completions": [{
+    "trigger": "sinon.spy",
+    "contents": "sinon.spy();"
+  }, {
+    "trigger": "sinon.stub",
+    "contents": "sinon.stub();"
+  }, {
+    "trigger": "sinon.mock",
+    "contents": "sinon.mock();"
+  }]
+}

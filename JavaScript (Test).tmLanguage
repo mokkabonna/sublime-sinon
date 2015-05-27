@@ -7,6 +7,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>js</string>
+		<string>test.js</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>.*\bit\(.*function\s*\(.*\)\s*{\s*$</string>
